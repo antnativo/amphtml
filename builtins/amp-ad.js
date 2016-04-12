@@ -306,11 +306,6 @@ export function installAd(win) {
       return true;
     }
 
-    /** @override  */
-    unlayoutOnPause() {
-      return true;
-    }
-
     /**
      * @return {!Promise<string|undefined>} A promise for a CID or undefined if
      *     - the ad network does not request one or
